@@ -1,0 +1,86 @@
+/*Tablets especifications*/
+@media only screen and (max-width: 992px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-group {
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-toggle {
+        display: flex;
+        top: 40px;
+    }
+
+    #menu-toggle:checked ~ .list-group {
+    display: flex;
+}
+
+/*MAIN*/
+
+.main-container {
+    flex-direction: column;
+}
+
+.box1 {
+    max-width: 100%;
+    padding: 50px;
+}
+
+.box2 {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.box2 img {
+    height: auto;
+}
+
+/*CARDS*/
+
+.card-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-bottom: none;
+}
+
+/*footer*/
+.footer-index {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer1 {
+    text-align: center;
+}
+
+.list-links,
+.list-icons {
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer2 img {
+    width: 100%;
+    height: auto;
+}
+}

@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    transition: display 0.5s ease;
 }
 
 a {
@@ -43,7 +44,6 @@ a li:hover {
     
 }
 
-
 .list-item {
     margin: 40px;
     list-style: none;
@@ -51,10 +51,22 @@ a li:hover {
     font-size: 28px;
 }
 
+/*MENU DESPLEGABLE*/
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+    position: absolute;
+    right: 60px;
+}
+
+
 .main-container {
     display: flex;
 }
-
 
 .box1 {
     display: flex;
@@ -62,6 +74,12 @@ a li:hover {
     padding-top: 200px;
     padding-left: 30px;
     max-width: 50%;
+}
+
+.title-box1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .box1 p {
@@ -117,4 +135,98 @@ a li:hover {
 
 .section-text {
     font-size: 20px;
+}
+
+/* CARDS SECTION */
+
+.title-h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.subtitle-cards {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: center; 
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.card img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: contain;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+.footer-index {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.footer-index h3 {
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.footer1  ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer1 ul a {
+    text-decoration: none;
+}
+
+.list-links a {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.list-links a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.list-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-icons:hover {
+    size: 4rem;
+}
+
+.footer2 img {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
 }
