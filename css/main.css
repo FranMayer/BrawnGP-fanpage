@@ -230,3 +230,34 @@ a li:hover {
     height: 500px;
     border-radius: 10px;
 }
+
+/*ABOUT CSS*/
+
+.main__about {
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding: 2rem;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.main__about img {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 2%;
+    margin-top: 2rem;
+}
+
+.galery__about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.galery__about img {
+    width: 100%;
+    border-radius: 2%;
+    width: 13rem;
+}  
