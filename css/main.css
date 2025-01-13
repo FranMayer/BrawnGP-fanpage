@@ -235,9 +235,8 @@ a li:hover {
 
 .main__about {
     text-align: center;
-    border-bottom: 2px solid var(--primary-color);
     padding: 2rem;
-    max-width: 950px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -259,5 +258,86 @@ a li:hover {
 .galery__about img {
     width: 100%;
     border-radius: 2%;
-    width: 13rem;
+    width: 15rem;
 }  
+
+/* DRIVERS CSS*/
+
+
+.main__drivers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .main__drivers p {
+    text-align: center;
+  }
+
+ .main__driverstitle {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+ }
+  
+  .Jenson_card, .Rubens_card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Jenson_card img, .Rubens_card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .Jenson_card h3, .Rubens_card h3 {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+  }
+  
+  .Jenson_card p, .Rubens_card p {
+    font-size: 1rem;
+    color: var(--primary-color);
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+
+  /* HISTORY CSS */
+
+  .main__history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .main__history h1,
+  .main__history h2 {
+    text-align: center;
+  }
+  
+  .main__history p {
+    max-width: 800px; 
+    text-align: justify; 
+  }
+  
+  .main__history img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    max-width: 50rem;
+  }
+
+ 
+  
