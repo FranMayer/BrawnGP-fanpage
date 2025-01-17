@@ -14,6 +14,7 @@ body {
     background-color: black;
     color: antiquewhite;
     font-family: 'Smooch Sans', sans-serif;
+    font-size: 2rem;
 }
 
 .logo {
@@ -338,6 +339,61 @@ a li:hover {
     margin: 10px 0;
     max-width: 50rem;
   }
+
+ /* BGP001 CSS*/
+
+ .main__car {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .main__car h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .main__car p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main__carimg {
+    margin: 2rem;
+    border-radius: 2%;
+  }
+
+  .main__car h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .list__bgp001 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list__bgp001 h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .list__bgp001 ul {
+    list-style: none;
+    padding: 0; 
+}
 
  
   
