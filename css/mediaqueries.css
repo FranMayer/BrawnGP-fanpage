@@ -51,6 +51,43 @@
     height: auto;
 }
 
+.galery__about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin: 0 auto;
+}
+
+.main__drivers {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .main__driverstitle {
+    font-size: 2rem; 
+  }
+
+  .Jenson_card, .Rubens_card {
+    max-width: 100%; 
+    padding: 15px;
+  }
+
+  .Jenson_card img, .Rubens_card img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .Jenson_card h3, .Rubens_card h3 {
+    font-size: 1.4rem;
+  }
+
+  .Jenson_card p, .Rubens_card p {
+    font-size: 1.2rem; 
+    line-height: 1.4;
+  }
+}
+
 /*CARDS*/
 
 .card-container {
@@ -82,5 +119,4 @@
 .footer2 img {
     width: 100%;
     height: auto;
-}
 }

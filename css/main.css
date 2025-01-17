@@ -138,6 +138,15 @@ a li:hover {
     font-size: 20px;
 }
 
+/*VIDEO CSS*/
+video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* CARDS SECTION */
 
 .title-h2 {
@@ -242,7 +251,7 @@ a li:hover {
 }
 
 .main__about img {
-    max-width: 700px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 2%;
     margin-top: 2rem;
@@ -261,6 +270,30 @@ a li:hover {
     border-radius: 2%;
     width: 15rem;
 }  
+
+.about__buttongoa{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 1rem;
+    
+}
+
+.about__buttongoa:hover{
+        background-color: black;
+        border: 2px solid var(--primary-color);
+        color: var(--primary-color);
+}
+
+
 
 /* DRIVERS CSS*/
 
